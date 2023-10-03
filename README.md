@@ -8,6 +8,7 @@ eksctl version
 ```
 3. EKS cluster creation
 4. create demo-cluster.yaml file
+```
    apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
@@ -29,7 +30,11 @@ nodeGroups:
     ssh:
       publicKeyPath: ~/.ssh/id_rsa.pub
 
+```
+
 5. kubectl create -f namespace.yaml
+
+```
 
 ---
 apiVersion: v1
@@ -41,6 +46,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: test-namespace
+```
 
 
 

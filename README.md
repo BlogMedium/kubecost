@@ -10,7 +10,7 @@ eksctl version
 4. create demo-cluster.yaml file
 ```
    apiVersion: eksctl.io/v1alpha5
-kind: ClusterConfig
+   kind: ClusterConfig
 
 metadata:
   name: demo-cluster

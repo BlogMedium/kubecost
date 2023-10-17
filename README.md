@@ -48,6 +48,8 @@ metadata:
   name: test-namespace
 ```
 
+6. https://docs.kubecost.com/install-and-configure/install
+
 
 
 
